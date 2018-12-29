@@ -36,6 +36,8 @@ TODO: Add long description of the pod here.
   
   s.framework = 'SystemConfiguration', 'Foundation', 'CoreTelephony'
   
+  s.xcconfig = {'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/BilinMars/Framework/mars.framework/Headers'}
+  
   
   s.vendored_frameworks = 'BilinMars/Framework/mars.framework'
   

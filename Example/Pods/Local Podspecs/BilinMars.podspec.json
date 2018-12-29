@@ -28,5 +28,8 @@
     "Foundation",
     "CoreTelephony"
   ],
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/BilinMars/Framework/mars.framework/Headers"
+  },
   "vendored_frameworks": "BilinMars/Framework/mars.framework"
 }
