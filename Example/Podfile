@@ -7,7 +7,5 @@ target 'BilinMars_Example' do
 
   target 'BilinMars_Tests' do
     inherit! :search_paths
-
-    
   end
 end

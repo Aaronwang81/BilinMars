@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D88943FBC1E43B043C7022809B7C496 /* Pods-BilinMars_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF51F1C1027D8697AD1AB2BBE325363A /* Pods-BilinMars_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3240A428718EF91563536EC43D38A5DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
+		37CCAE85C1F02BFD59306B73F35BA222 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */; };
+		3D175B6960E7EB0682E0360A18766802 /* BLPlaceholderClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B4F6BD0D3C1AE993FF64E1A064B09F /* BLPlaceholderClass.m */; };
+		434BCD8A9F7BF2B6BF9FEEF560502D7D /* Pods-BilinMars_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7A1C29A52CF4DE9A5B53CE039B5BDA /* Pods-BilinMars_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		508D44F4B1E96BC01A30F69D1D4E60A7 /* BLPlaceholderClass.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBB0CBB5B47083012CA8594A4948734 /* BLPlaceholderClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56707B111D98CC92235B61BEDB63A484 /* BilinMars-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 288BF9A4F5A7F0654E6D8B0C41287672 /* BilinMars-dummy.m */; };
+		821987A3AB191FA986B81D60782610AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
+		912157FF2963B5B5FB6D774715A4B121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
+		B14B711D6F93BCF1F007B0EB7CA6DF31 /* BilinMars-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47778C7C23B992DDA79C6ED4B45026AA /* BilinMars-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7CE3D9C332198964E75ABB90B327200 /* Pods-BilinMars_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 195DE5D6DAD73124FA46742899DB4F33 /* Pods-BilinMars_Tests-dummy.m */; };
+		C768F6F5BA65841ABA4676468B7234F4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */; };
+		DA5AC80E6115EAF3D1D95129911D033E /* Pods-BilinMars_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B36277AE59AF3A2BF835664B282FA3D /* Pods-BilinMars_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EDAAC65E1B0085BD41EDC8964B4BD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23876B45F80879A89981842C577135DA;
+			remoteInfo = BilinMars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080DC7FBB9F2EDE7B12F60148FF2A537 /* Pods-BilinMars_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BilinMars_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0DC4130EF60E4B41181EAC9940D52612 /* BilinMars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BilinMars.framework; path = BilinMars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1136FB41658E412D7C1481F07B111B49 /* Pods-BilinMars_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BilinMars_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		14976D97FBC89FB9D09D13DC184086F5 /* BilinMars.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BilinMars.xcconfig; sourceTree = "<group>"; };
+		195DE5D6DAD73124FA46742899DB4F33 /* Pods-BilinMars_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BilinMars_Tests-dummy.m"; sourceTree = "<group>"; };
+		20EFC5D72ABA2C33B08F8E4FAB9BC4E0 /* Pods-BilinMars_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BilinMars_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		288BF9A4F5A7F0654E6D8B0C41287672 /* BilinMars-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BilinMars-dummy.m"; sourceTree = "<group>"; };
+		37694684BEC6F02B5E486FBD465CAFD1 /* Pods-BilinMars_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BilinMars_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		38B69AAD37395AC00E58BD0C5108C91B /* Pods-BilinMars_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BilinMars_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4074116E00E2BEC776CFE36F18DA112C /* Pods-BilinMars_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BilinMars_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		41CB8AAA8F6C3E343D9373DF7B8BEBEF /* mars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mars.framework; path = BilinMars/Framework/mars.framework; sourceTree = "<group>"; };
+		47778C7C23B992DDA79C6ED4B45026AA /* BilinMars-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BilinMars-umbrella.h"; sourceTree = "<group>"; };
+		4FCCD807F15652C0A73932C38EFA1256 /* Pods-BilinMars_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BilinMars_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		5A400C9B811FCDD7947D8C09E264C146 /* Pods_BilinMars_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BilinMars_Tests.framework; path = "Pods-BilinMars_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC5CC879591DD4DB259AAFED69BB989 /* Pods-BilinMars_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BilinMars_Tests-resources.sh"; sourceTree = "<group>"; };
+		703E778497391C80BBC41434E1A1BBFF /* Pods_BilinMars_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BilinMars_Example.framework; path = "Pods-BilinMars_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F66F2DC87B19E57970EA82E40AFAA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752BBCC79ED77C383E894F503E50CFE6 /* Pods-BilinMars_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BilinMars_Example.release.xcconfig"; sourceTree = "<group>"; };
+		77E8D306993B1A85CE749B893520C250 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B36277AE59AF3A2BF835664B282FA3D /* Pods-BilinMars_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BilinMars_Example-dummy.m"; sourceTree = "<group>"; };
+		8D3E5031483923C88AAB7266FE36A826 /* Pods-BilinMars_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BilinMars_Example-resources.sh"; sourceTree = "<group>"; };
+		8E7FF0A79B614E3BEA359A14A8E700A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		90DD2E99C8B888155085C150C5AE8C68 /* BilinMars.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BilinMars.modulemap; sourceTree = "<group>"; };
+		9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0E9D4B31C49B33DB933055282D746D3 /* Pods-BilinMars_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BilinMars_Tests.modulemap"; sourceTree = "<group>"; };
+		A467C3AD1B5DF22A8D7995B1D71CFC02 /* Pods-BilinMars_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BilinMars_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B04724AEBD92672DDADCB4692D9827BF /* Pods-BilinMars_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BilinMars_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BF51F1C1027D8697AD1AB2BBE325363A /* Pods-BilinMars_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BilinMars_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C5E20C0BDE3B0663CCCCF3370342B88A /* Pods-BilinMars_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BilinMars_Example.modulemap"; sourceTree = "<group>"; };
+		CB675E2B8B86465EBF329F622DFEEF30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CEB8E36CA869AE9C22ABAD51D4E7D246 /* BilinMars-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BilinMars-prefix.pch"; sourceTree = "<group>"; };
+		D451377A5913C0B72C1FD64A22036A29 /* BilinMars.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BilinMars.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2B4F6BD0D3C1AE993FF64E1A064B09F /* BLPlaceholderClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLPlaceholderClass.m; path = BilinMars/Classes/BLPlaceholderClass.m; sourceTree = "<group>"; };
+		EB7909248099FB3008CF7E594EB1B2F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBB0CBB5B47083012CA8594A4948734 /* BLPlaceholderClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLPlaceholderClass.h; path = BilinMars/Classes/BLPlaceholderClass.h; sourceTree = "<group>"; };
+		F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		FD7A1C29A52CF4DE9A5B53CE039B5BDA /* Pods-BilinMars_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BilinMars_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F884221E66CAC3E5D13D4ED26FECA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912157FF2963B5B5FB6D774715A4B121 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DFCAF895BE942D9FB8C1410E193D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CCAE85C1F02BFD59306B73F35BA222 /* CoreTelephony.framework in Frameworks */,
+				3240A428718EF91563536EC43D38A5DD /* Foundation.framework in Frameworks */,
+				C768F6F5BA65841ABA4676468B7234F4 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E891AD314D54D1852B629942006425C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821987A3AB191FA986B81D60782610AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5524045EEE70BF6A8036A3A3A7F171 /* BilinMars */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB0CBB5B47083012CA8594A4948734 /* BLPlaceholderClass.h */,
+				E2B4F6BD0D3C1AE993FF64E1A064B09F /* BLPlaceholderClass.m */,
+				D25E1FE01BD1F06797B7AA78FBC67930 /* Frameworks */,
+				AB871B3A447B75EFA2AF13DA299F550F /* Pod */,
+				FE8B943E6CEC23A3FD01730C180CFC32 /* Support Files */,
+			);
+			name = BilinMars;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F41256A09661734466D0BEFE210060 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BE5373A493979586FCCA470E9A138A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B209E0B10ED7F98EE7FB45876DF2A433 /* Pods-BilinMars_Example */,
+				829C8FA2734385AB01848F2F67E8B6C3 /* Pods-BilinMars_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8166F819DAB4016E675E63F729C1969E /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				8549E8528C1BFB1B3FC540ECA0FAD369 /* Products */,
+				3BE5373A493979586FCCA470E9A138A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8166F819DAB4016E675E63F729C1969E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F5524045EEE70BF6A8036A3A3A7F171 /* BilinMars */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		829C8FA2734385AB01848F2F67E8B6C3 /* Pods-BilinMars_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				72F66F2DC87B19E57970EA82E40AFAA6 /* Info.plist */,
+				A0E9D4B31C49B33DB933055282D746D3 /* Pods-BilinMars_Tests.modulemap */,
+				A467C3AD1B5DF22A8D7995B1D71CFC02 /* Pods-BilinMars_Tests-acknowledgements.markdown */,
+				38B69AAD37395AC00E58BD0C5108C91B /* Pods-BilinMars_Tests-acknowledgements.plist */,
+				195DE5D6DAD73124FA46742899DB4F33 /* Pods-BilinMars_Tests-dummy.m */,
+				4FCCD807F15652C0A73932C38EFA1256 /* Pods-BilinMars_Tests-frameworks.sh */,
+				6BC5CC879591DD4DB259AAFED69BB989 /* Pods-BilinMars_Tests-resources.sh */,
+				BF51F1C1027D8697AD1AB2BBE325363A /* Pods-BilinMars_Tests-umbrella.h */,
+				37694684BEC6F02B5E486FBD465CAFD1 /* Pods-BilinMars_Tests.debug.xcconfig */,
+				080DC7FBB9F2EDE7B12F60148FF2A537 /* Pods-BilinMars_Tests.release.xcconfig */,
+			);
+			name = "Pods-BilinMars_Tests";
+			path = "Target Support Files/Pods-BilinMars_Tests";
+			sourceTree = "<group>";
+		};
+		8549E8528C1BFB1B3FC540ECA0FAD369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DC4130EF60E4B41181EAC9940D52612 /* BilinMars.framework */,
+				703E778497391C80BBC41434E1A1BBFF /* Pods_BilinMars_Example.framework */,
+				5A400C9B811FCDD7947D8C09E264C146 /* Pods_BilinMars_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F41256A09661734466D0BEFE210060 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */,
+				9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */,
+				584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AB871B3A447B75EFA2AF13DA299F550F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D451377A5913C0B72C1FD64A22036A29 /* BilinMars.podspec */,
+				8E7FF0A79B614E3BEA359A14A8E700A4 /* LICENSE */,
+				CB675E2B8B86465EBF329F622DFEEF30 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B209E0B10ED7F98EE7FB45876DF2A433 /* Pods-BilinMars_Example */ = {
+			isa = PBXGroup;
+			children = (
+				77E8D306993B1A85CE749B893520C250 /* Info.plist */,
+				C5E20C0BDE3B0663CCCCF3370342B88A /* Pods-BilinMars_Example.modulemap */,
+				20EFC5D72ABA2C33B08F8E4FAB9BC4E0 /* Pods-BilinMars_Example-acknowledgements.markdown */,
+				1136FB41658E412D7C1481F07B111B49 /* Pods-BilinMars_Example-acknowledgements.plist */,
+				8B36277AE59AF3A2BF835664B282FA3D /* Pods-BilinMars_Example-dummy.m */,
+				B04724AEBD92672DDADCB4692D9827BF /* Pods-BilinMars_Example-frameworks.sh */,
+				8D3E5031483923C88AAB7266FE36A826 /* Pods-BilinMars_Example-resources.sh */,
+				FD7A1C29A52CF4DE9A5B53CE039B5BDA /* Pods-BilinMars_Example-umbrella.h */,
+				4074116E00E2BEC776CFE36F18DA112C /* Pods-BilinMars_Example.debug.xcconfig */,
+				752BBCC79ED77C383E894F503E50CFE6 /* Pods-BilinMars_Example.release.xcconfig */,
+			);
+			name = "Pods-BilinMars_Example";
+			path = "Target Support Files/Pods-BilinMars_Example";
+			sourceTree = "<group>";
+		};
+		D25E1FE01BD1F06797B7AA78FBC67930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41CB8AAA8F6C3E343D9373DF7B8BEBEF /* mars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE8B943E6CEC23A3FD01730C180CFC32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90DD2E99C8B888155085C150C5AE8C68 /* BilinMars.modulemap */,
+				14976D97FBC89FB9D09D13DC184086F5 /* BilinMars.xcconfig */,
+				288BF9A4F5A7F0654E6D8B0C41287672 /* BilinMars-dummy.m */,
+				CEB8E36CA869AE9C22ABAD51D4E7D246 /* BilinMars-prefix.pch */,
+				47778C7C23B992DDA79C6ED4B45026AA /* BilinMars-umbrella.h */,
+				EB7909248099FB3008CF7E594EB1B2F8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BilinMars";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B1C5C2C78D58397FA4C87787B5C2C0CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D88943FBC1E43B043C7022809B7C496 /* Pods-BilinMars_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E1ECE382A05258BD9E8AE175F5FC6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434BCD8A9F7BF2B6BF9FEEF560502D7D /* Pods-BilinMars_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BEB82C9493063088681197FC7ACFEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14B711D6F93BCF1F007B0EB7CA6DF31 /* BilinMars-umbrella.h in Headers */,
+				508D44F4B1E96BC01A30F69D1D4E60A7 /* BLPlaceholderClass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		007B2821EB212E0EC25E7765C7A1C896 /* Pods-BilinMars_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11B7A933F078F3A10E3A00ADA4612D8 /* Build configuration list for PBXNativeTarget "Pods-BilinMars_Tests" */;
+			buildPhases = (
+				5AB4CDBE51E6F03391FAC7DE63D9CDD3 /* Sources */,
+				E891AD314D54D1852B629942006425C3 /* Frameworks */,
+				B1C5C2C78D58397FA4C87787B5C2C0CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BilinMars_Tests";
+			productName = "Pods-BilinMars_Tests";
+			productReference = 5A400C9B811FCDD7947D8C09E264C146 /* Pods_BilinMars_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23876B45F80879A89981842C577135DA /* BilinMars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C993492350E5116BAFD46713DF134D /* Build configuration list for PBXNativeTarget "BilinMars" */;
+			buildPhases = (
+				3C898548A34C5840E6A2A027327F8A9A /* Sources */,
+				63DFCAF895BE942D9FB8C1410E193D12 /* Frameworks */,
+				E5BEB82C9493063088681197FC7ACFEF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BilinMars;
+			productName = BilinMars;
+			productReference = 0DC4130EF60E4B41181EAC9940D52612 /* BilinMars.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2D93F99E5FBA70A87EB20F39170862A /* Pods-BilinMars_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551E2D7F075BDD3E2822CF425C4D01E7 /* Build configuration list for PBXNativeTarget "Pods-BilinMars_Example" */;
+			buildPhases = (
+				5CA6DAA83355A22799E3610EE698EBCF /* Sources */,
+				1F884221E66CAC3E5D13D4ED26FECA18 /* Frameworks */,
+				B9E1ECE382A05258BD9E8AE175F5FC6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2642A2B5C6F01565DBDB1FAC2CD00F07 /* PBXTargetDependency */,
+			);
+			name = "Pods-BilinMars_Example";
+			productName = "Pods-BilinMars_Example";
+			productReference = 703E778497391C80BBC41434E1A1BBFF /* Pods_BilinMars_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8549E8528C1BFB1B3FC540ECA0FAD369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23876B45F80879A89981842C577135DA /* BilinMars */,
+				B2D93F99E5FBA70A87EB20F39170862A /* Pods-BilinMars_Example */,
+				007B2821EB212E0EC25E7765C7A1C896 /* Pods-BilinMars_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C898548A34C5840E6A2A027327F8A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56707B111D98CC92235B61BEDB63A484 /* BilinMars-dummy.m in Sources */,
+				3D175B6960E7EB0682E0360A18766802 /* BLPlaceholderClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB4CDBE51E6F03391FAC7DE63D9CDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CE3D9C332198964E75ABB90B327200 /* Pods-BilinMars_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA6DAA83355A22799E3610EE698EBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5AC80E6115EAF3D1D95129911D033E /* Pods-BilinMars_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2642A2B5C6F01565DBDB1FAC2CD00F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BilinMars;
+			target = 23876B45F80879A89981842C577135DA /* BilinMars */;
+			targetProxy = 4EDAAC65E1B0085BD41EDC8964B4BD21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08D42E8FBF9763ED0F307DDABC58B1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37694684BEC6F02B5E486FBD465CAFD1 /* Pods-BilinMars_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BilinMars_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BilinMars_Tests/Pods-BilinMars_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BilinMars_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2900F03E7606ED3325E55C36EFD7684E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14976D97FBC89FB9D09D13DC184086F5 /* BilinMars.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BilinMars/BilinMars-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BilinMars/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BilinMars/BilinMars.modulemap";
+				PRODUCT_NAME = BilinMars;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BA847A590A3F11DF964642B3CF88A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752BBCC79ED77C383E894F503E50CFE6 /* Pods-BilinMars_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BilinMars_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BilinMars_Example/Pods-BilinMars_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BilinMars_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DBEC649BB6D04087F15C16E05F49ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4074116E00E2BEC776CFE36F18DA112C /* Pods-BilinMars_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BilinMars_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BilinMars_Example/Pods-BilinMars_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BilinMars_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5380CC67A39F1B04D3851FBF7AD8773E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080DC7FBB9F2EDE7B12F60148FF2A537 /* Pods-BilinMars_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BilinMars_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BilinMars_Tests/Pods-BilinMars_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BilinMars_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78F0C2C944FC174D496688C941CD3375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14976D97FBC89FB9D09D13DC184086F5 /* BilinMars.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BilinMars/BilinMars-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BilinMars/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BilinMars/BilinMars.modulemap";
+				PRODUCT_NAME = BilinMars;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551E2D7F075BDD3E2822CF425C4D01E7 /* Build configuration list for PBXNativeTarget "Pods-BilinMars_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBEC649BB6D04087F15C16E05F49ECE /* Debug */,
+				2BA847A590A3F11DF964642B3CF88A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C993492350E5116BAFD46713DF134D /* Build configuration list for PBXNativeTarget "BilinMars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2900F03E7606ED3325E55C36EFD7684E /* Debug */,
+				78F0C2C944FC174D496688C941CD3375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11B7A933F078F3A10E3A00ADA4612D8 /* Build configuration list for PBXNativeTarget "Pods-BilinMars_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D42E8FBF9763ED0F307DDABC58B1E2 /* Debug */,
+				5380CC67A39F1B04D3851FBF7AD8773E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

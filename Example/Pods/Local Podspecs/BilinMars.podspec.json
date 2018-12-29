@@ -1,0 +1,32 @@
+{
+  "name": "BilinMars",
+  "version": "0.1.0",
+  "summary": "svn不能提交大于10MB的二进制文件，通过cocopod 库来规避mars.framework二进制文件过大的问题",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaohou31549/BilinMars",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaohou31549": "lijun6@yy.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaohou31549/BilinMars.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BilinMars/Classes/**/*",
+  "libraries": [
+    "z",
+    "resolv.9"
+  ],
+  "frameworks": [
+    "SystemConfiguration",
+    "Foundation",
+    "CoreTelephony"
+  ],
+  "vendored_frameworks": "BilinMars/Framework/mars.framework"
+}

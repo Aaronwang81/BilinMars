@@ -1,0 +1,6 @@
+framework module BilinMars {
+  umbrella header "BilinMars-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - BilinMars (0.1.0)
+
+DEPENDENCIES:
+  - BilinMars (from `../`)
+
+EXTERNAL SOURCES:
+  BilinMars:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BilinMars: 91901fd3ada9eb7e0f4c84b5eac963d3e10b25ee
+
+PODFILE CHECKSUM: d4fa40025ea21eac86882ad8d5397d43ce2182f3
+
+COCOAPODS: 1.4.0
