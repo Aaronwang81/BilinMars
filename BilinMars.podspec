@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BilinMars'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'svn不能提交大于10MB的二进制文件，通过cocopod 库来规避mars.framework二进制文件过大的问题'
 
 # This description is used to generate tags and improve search results.
