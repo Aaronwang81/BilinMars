@@ -28,7 +28,7 @@
 #else
 #include "projdef.h"
 #endif
-#include <inttypes.h>
+//#include <inttypes.h>
 #include <string.h>
 
 #include <limits>
@@ -130,7 +130,7 @@ public:
         char *end = NULL;
         
         vaild_ = true;
-        value_ = strtoimax(_str, &end, base);
+        //value_ = strtoimax(_str, &end, base);
         
         if (_str == end) {
             vaild_ = false;
@@ -168,7 +168,7 @@ public:
         char *end = NULL;
         
         vaild_ = true;
-        value_ = strtoumax(_str, &end, base);
+        //value_ = strtoumax(_str, &end, base);
         
         if (_str == end) {
             vaild_ = false;
